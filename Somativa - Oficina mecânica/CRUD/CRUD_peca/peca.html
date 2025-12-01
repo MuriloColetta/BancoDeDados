@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Inserindo Dados em Peças</title>
+</head>
+<body>
+    <footer>
+        <h1>Oficina Mecânica</h1>
+        <h2>Cadastrar Peça</h2>
+    </footer>
+    <main>
+        <form action="insert.php" method="post">
+            <label>Nome:</label>
+            <input type="text" name="nome_peca" required><br>
+            <label>Quantidade:</label>
+            <input type="number" name="quantidade" required><br>
+            <label>Preço:</label>
+            <input type="text" name="preco" required><br>
+            <label>Descrição:</label>
+            <input type="text" name="descricao_peca" required><br>
+            <button type="submit">Cadastrar</button>
+        </form>
+        <a href='listar.php'>Lista de Peças</a>
+        <a href="../index.html">Voltar para o menu principla</a>
+    </main>
+</body>
+</html>
