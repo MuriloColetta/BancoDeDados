@@ -8,12 +8,12 @@ $result = $conn->query("SELECT * FROM mecanico");
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style.css">
-    <title>Lista de mecanicos</title>
+    <title>Lista de Mecânicos</title>
 </head>
 <body>
     <footer>
         <h1>Oficina Mecânica</h1>
-        <h2>Lista de mecanicos</h2>
+        <h2>Lista de Mecânicos</h2>
     </footer>
     <main>
         <table> 

@@ -15,6 +15,6 @@ $stmt->bind_param("i", $id);
 if ($stmt->execute()) {
     echo "Mecânico deletado com sucesso.";
 } else {
-    echo "Erro ao deletar usuário: " . $stmt->error;
+    echo "Erro ao deletar mecânico: " . $stmt->error;
 }
 echo"<br><a href='/listar.php'>Voltar para a lista</a>";
